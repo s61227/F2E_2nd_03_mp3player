@@ -1,0 +1,24 @@
+/* ======= form ======= */
+// input
+@mixin input ($bgColor) {
+    border: none;
+    outline: none;
+    background-color: $bgColor;
+    padding-left: 16px;
+}
+
+// button
+@mixin button ($sizeW, $sizeH, $textColor, $bgColor) {
+    width: $sizeW;
+    height: $sizeH;
+    color: $textColor;
+    background-color: $bgColor;
+    font-family: $font-style;
+    font-size: $font-size-md;
+    font-weight: $font-weight-bold;
+    outline: none;
+    border: 0;
+    cursor: pointer; 
+}
+
+

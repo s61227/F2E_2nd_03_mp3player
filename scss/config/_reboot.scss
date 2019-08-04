@@ -1,0 +1,13 @@
+/* ======= reboot ======= */
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+    font-family: $font-style;
+    color: $text-primary;
+    font-size: $font-size-base;
+    background-color: $bg-primary;
+}
+a{
+    text-decoration: none;
+    color: $text-primary;
+}

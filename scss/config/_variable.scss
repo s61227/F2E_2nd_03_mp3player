@@ -1,0 +1,33 @@
+/* ======= variable ======= */
+// color
+$light-red: #FF4448;
+$red: #D70000;
+$dark-red: #BC0404;
+$lighter-gray: #F2F2F2;
+$light-gray: #CBCBCB;
+$dark-gray: #9F9F9F;
+$black: #201E2A;
+$dark-blue-1: #2D2941;
+$dark-blue-2: #222A40;
+
+// text-color
+$text-primary: $lighter-gray;
+$text-second: $dark-gray;
+
+// bg-color
+$bg-primary: $black;
+
+// font-family
+$font-style: 'Roboto', sans-serif;
+
+// font-weight
+$font-weight-normal: normal;
+$font-weight-light: 300;
+$font-weight-bold: 700;
+
+//font-size
+$font-size-base: 16px;
+$font-size-sm: $font-size-base - 2; //14px
+$font-size-md: $font-size-base * 1.125;  //18
+$font-size-lg: $font-size-base * 1.25;  //20
+$font-size-xl: $font-size-base * 2.5;  //40
